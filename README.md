@@ -7,5 +7,5 @@ todo
 
 ## ToDo
 
-- [] publish on homebrew
-- [] -a flag that saves every quality setting
+- [ ] publish on homebrew
+- [ ] -a flag that saves every quality setting
