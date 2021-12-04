@@ -8,7 +8,18 @@ Generate 3D objects from images using RealityKit Object Capture. This project is
  - An Intel Mac with 16GB of RAM and an AMD GPU with 4GB of VRAM
 
 ## Usage
-todo
+`$ photogrametrytool <input-folder> <output-filename> [--detail <detail>] [--sample-ordering <sample-ordering>] [--feature-sensitivity <feature-sensitivity>]`
+
+### USDZ to OBJ Conversion
+`$ photogrametrytool <input.usdz> <output-filename>`
+
+## Options
+| Shorthand | Flag                  | Available Options                   | Description                                                                                                                                                                 |
+|-----------|-----------------------|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| -d        | --detail              | preview, reduced, medium, full, raw | Detail of output model in terms of mesh size and texture size.                                                                                                              |
+| -o        | --sample-ordering     | unordered, sequential               | Setting to sequential may speed up computation if images are captured in a spatially sequential pattern. Set to unordered when you don't have good results with sequential. |
+| -f        | --feature-sensitivity | normal, high                        | Set to high if the scanned object does not contain a lot of discernible structures, edges or textures.                                                                      |
+| -h        | --help                |                                     | Show help information.                                                                                                                                                      |
 
 ## ToDo
 
