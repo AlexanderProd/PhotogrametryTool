@@ -8,10 +8,14 @@ Generate 3D objects from images using RealityKit Object Capture. This project is
  - An Intel Mac with 16GB of RAM and an AMD GPU with 4GB of VRAM
 
 ## Usage
-`$ photogrametrytool <input-folder> <output-filename> [--detail <detail>] [--sample-ordering <sample-ordering>] [--feature-sensitivity <feature-sensitivity>]`
+```
+$ photogrametrytool <input-folder> <output-filename> [--detail <detail>] [--sample-ordering <sample-ordering>] [--feature-sensitivity <feature-sensitivity>]
+```
 
 ### USDZ to OBJ Conversion
-`$ photogrametrytool <input.usdz> <output-filename>`
+```
+$ photogrametrytool <input.usdz> <output-filename>
+```
 
 ## Options
 | Shorthand | Flag                  | Available Options                   | Description                                                                                                                                                                 |
